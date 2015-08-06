@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Carousel Template for Bootstrap</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/datetimepicker.css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<!-- NAVBAR
+================================================== -->
+<body>
+
+    <!-- navbar-->
+    <div class="navbar-wrapper">
+        <div class="container">
+
+            <!-- start top-bar-->
+            <div id="top-bar" class="col-md-6 col-md-offset-6 top-bar-shadow">
+                <div class="social-icon ">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-skype"></i></a>
+                    <a href="#"><i class="fa fa-pinterest"></i></a>
+                </div>
+                <div class="select-language hidden-sm hidden-xs">
+                    <select name="lang">
+                        <option value="fr">France</option>
+                        <option value="en" selected>English</option>
+                        <option value="vi">Tiếng Việt</option>
+                    </select>
+                </div>
+                <div class="stock hidden-sm hidden-xs">
+                    <span class="callUs">Call Us.</span>
+                    <span class="phoneNumber">+00 123 456 789</span>
+                </div>
+            </div><!-- end top-bar-->
+
+            <nav class="navbar navbar-inverse navbar-static-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed"
+                                data-toggle="collapse" data-target="#navbar"
+                                aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">
+                            <img src="images/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#">Pages</a></li>
+                            <li><a href="#">Reservation</a></li>
+                            <li><a href="#">Room</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Shop</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Features</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- caption carousel-->
+    <div class="container">
+        <div class="carousel-caption hidden-sm hidden-xs" >
+            <h1>Welcome to Sailing Hotel</h1>
+            <p>
+                Where every stay is unique
+            </p>
+            <p>
+                <a class="btn btn-lg" href="#" role="button">Explorer</a>
+            </p>
+            <br><br><br>
+            <br><br><br>
+        </div>
+    </div>
+
+    <!-- carousel-->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <div class="item bg bg1"></div>
+            </div>
+            <div class="item">
+                <div class="item bg bg2">
+                    <div class="container"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /.carousel -->
+
+    <!-- date_time_picker-->
+    <div class="container">
+        <div id="check_room" class="row">
+
+            <!--<div class='col-md-1'></div>-->
+            <div class='col-md-2'>
+                <div class="form-group">
+                    <div class="input-group date" id="datetimepicker6" >
+                        <input type="text" class="form-control" placeholder="BBBB"/>
+                        <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-calendar"></span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class='col-md-2'>
+                <div class="form-group">
+                    <div class="input-group date" id="datetimepicker7" >
+                        <input type='text' class="form-control" placeholder="AAA"/>
+                        <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-calendar"></span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class='col-md-2'>
+                <div class="btn-group">
+                    <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">Adults<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Other</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class='col-md-2'>
+                <div class="btn-group">
+                    <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+                        Child
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Other</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class='col-md-2'>
+                <div class="btn btn-group btn-primary">Check Availability</div>
+            </div>
+        </div>
+
+    </div>
+    <!-- end date_time_picker-->
+
+    <!-- Room-->
+    <div id="room">
+        <div class="container">
+            <div class="title text-center">
+                <h2>Hotel Master Rooms</h2>
+                <small>Semper ac dolor vitae accumsan.</small>
+                <div><img src="images/line-72x7px.png"></div>
+            </div>
+
+            <div class="nav text-center">
+                    <a class="previous" href="#">
+                        <img src="images/pre-24x16px.png" alt="Pre">
+                    </a>
+                <span class="all-rooms"><a href="#">View All Rooms</a></span>
+                    <a class="next" href="#">
+                        <img src="images/next-24x16px.png" alt="Next">
+                    </a>
+            </div>
+
+            <div class="rooms">
+                <div class="row hidden-sm hidden-xs">
+                    <div class="col-md-3">
+                        <div class="preview">
+                            <img class="room-preview" src="images/room1_270x370px.png">
+                            <div class="triangular">
+                                <div class="triangular-text">300$</div>
+                                <div class="info-room">Night</div>
+                            </div>
+                        </div>
+                        <h3 class="type-room">Deluxe Room</h3>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="preview">
+                            <img class="room-preview" src="images/room2_270x370px.png">
+                            <div class="triangular">
+                                <div class="triangular-text">270$</div>
+                                <div class="info-room">Night</div>
+                            </div>
+                        </div>
+                        <h3 class="type-room">Double Room</h3>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="preview">
+                            <img class="room-preview" src="images/room3_270x370px.png">
+                            <div class="triangular">
+                                <div class="triangular-text">520$</div>
+                                <div class="info-room">Night</div>
+                            </div>
+                        </div>
+                        <h3 class="type-room">Single Room</h3>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="preview">
+                            <img class="room-preview" src="images/room4_270x370px.png">
+                            <div class="triangular">
+                                <div class="triangular-text">210$</div>
+                                <div class="info-room">Night</div>
+                            </div>
+                        </div>
+                        <h3 class="type-room">Family Room</h3>
+                    </div>
+
+                </div>
+
+                <div class="hidden-md hidden-lg">
+                    <div class="row text-center">
+                        <div class="col-sm-6">
+                            <div class="preview">
+                                <img class="room-preview" src="images/room1_270x370px.png">
+                                <div class="triangular">
+                                    <div class="triangular-text">300$</div>
+                                    <div class="info-room">Night</div>
+                                </div>
+                            </div>
+                            <h3 class="type-room">Deluxe Room</h3>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="preview">
+                                <img class="room-preview" src="images/room2_270x370px.png">
+                                <div class="triangular">
+                                    <div class="triangular-text">270$</div>
+                                    <div class="info-room">Night</div>
+                                </div>
+                            </div>
+                            <h3 class="type-room">Double Room</h3>
+                        </div>
+                    </div>
+
+                    <div class="row text-center">
+                        <div class="col-sm-6">
+                            <div class="preview">
+                                <img class="room-preview" src="images/room3_270x370px.png">
+                                <div class="triangular">
+                                    <div class="triangular-text">520$</div>
+                                    <div class="info-room">Night</div>
+                                </div>
+                            </div>
+                            <h3 class="type-room">Single Room</h3>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="preview">
+                                <img class="room-preview" src="images/room4_270x370px.png">
+                                <div class="shape">
+                                    <div class="shape-text">210$</div>
+                                    <div class="info-room">Night</div>
+                                </div>
+                            </div>
+                            <h3 class="type-room">Family Room</h3>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- banner-->
+    <div id="banner">
+            <img class="img-banner" src="images/banner_1600x480px.png">
+            <div class="circle">
+                <div class="circle-text">
+                    <div class="hot">Red Hot Summer</div>
+                    <div class="savings">Savings</div>
+                    <div class="sale">50% Off 3rd Night</div>
+                    <button class="learn-more btn btn-default">Learn More</button>
+                </div>
+            </div>
+    </div>
+
+    <!-- about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+            <div class="col-md-4">
+                <h3>Sailing Hotel</h3>
+                <div class="short-line">
+                    <img src="images/line-30x1px.png">
+                </div>
+                <img class="img-us" src="images/people_371x262px.png">
+            </div>
+
+            <div class="col-md-4">
+                <div class="details">
+                    <p>
+                        Laculis diam eu tortor euismodolo. Vestib ulum antipsum primis inicibu orci luctus edloret ultrices et posuere cubil sed odiocinialor it matis ed.
+                    </p>
+                    <p>
+                        Eu tortor euismodolo. Vestibulum ant psu meop primis inicibu orci luctus ed ultrices et posuere cubil.
+                    </p>
+                    <div class="number"><i class="fa fa-phone"></i> +00 123 456 789</div>
+                    <div class="mail"><i class="fa fa-envelope"></i> hello@yourmail.com</div>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div class="services">
+                    <h3>Our Services</h3>
+                    <div class="short-line">
+                        <img src="images/line-30x1px.png">
+                    </div>
+                    <div class="list-services ">
+                        <p><i class="fa fa-check-circle"></i>24 hour front desk staff</p>
+                        <p><i class="fa fa-check-circle"></i>Free airport pick up service</p>
+                        <p><i class="fa fa-check-circle"></i>Swimming pool</p>
+                        <p><i class="fa fa-check-circle"></i>24h Parking & Security</p>
+                        <p><i class="fa fa-check-circle"></i>2 Revoling Coktail bar</p>
+                        <p><i class="fa fa-check-circle"></i>4 Restaurants</p>
+                        <p><i class="fa fa-check-circle"></i>200 Rooms</p>
+                        <p><i class="fa fa-check-circle"></i>Free breakfast everyday</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- video tour-->
+    <div id="video">
+        <img src="images/Video_1600x480px_opacity.png" class="click-image">
+        <div class="load-vidoe" style="display: none;">
+            <video controls>
+                <source src="#" type="video/mp4" >
+            </video>
+        </div>
+        <div class="title">
+            <h4>Video Tour</h4>
+            <div class="play"><i class="fa fa-play-circle"></i></div>
+        </div>
+
+    </div>
+
+    <!-- event-->
+    <div id="event">
+        <div class="container">
+            <div class="row">
+                <!-- event-->
+                <div class="event col-md-4">
+                    <h3>Upcoming Events</h3>
+                    <div class="short-line">
+                        <img src="images/line-30x1px.png">
+                    </div>
+                    <div class="list-events">
+                        <div class="item">
+                            <div class="date pull-left">
+                                <div class="day">05</div>
+                                <div class="month">Jan</div>
+                            </div>
+                            <div class="event-content">
+                                <h4>Does Wikipedia Need a Medical Disclaimer?</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisici...</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="date pull-left">
+                                <div class="day">05</div>
+                                <div class="month">Jan</div>
+                            </div>
+                            <div class="event-content">
+                                <h4>Does Wikipedia Need a Medical Disclaimer?</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisici...</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="date pull-left">
+                                <div class="day">05</div>
+                                <div class="month">Jan</div>
+                            </div>
+                            <div class="event-content">
+                                <h4>Does Wikipedia Need a Medical Disclaimer?</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisici...</p></div>
+                        </div>
+                    </div>
+                    <a class="under-line" href="#">Read All Event</a>
+                </div>
+
+                <!-- testimonial-->
+                <div class="col-md-4">
+                    <div class="testimonial">
+                        <h3>Testimonial</h3>
+                        <div class="short-line">
+                            <img src="images/line-30x1px.png">
+                        </div>
+                        <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#testimonial-carousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#testimonial-carousel" data-slide-to="1"></li>
+                                <li data-target="#testimonial-carousel" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+                                    <div class="testimonial-content">Lorem ipsum dolor sit amet, consectetur elit. Ad assumenda fuga illo laudantium magni sed temporibus.<br>Amet atque aut autem consectetur consequuntur dolorum enim error hic inventore molestiae nisi nostrum numquam optio perspiciatis provident.</div>
+                                    <div class="testimonial-info">
+                                        <img class="testimonial-img pull-left" src="images/man_90x90px.png">
+                                    </div>
+                                    <div class="details">
+                                        <h4>Peter Packer</h4>
+                                        <div class="regency">CEO of Touristlink</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="testimonial-content">Lorem ipsum dolor sit amet, consectetur elit. Ad assumenda fuga illo laudantium magni sed temporibus.<br>Amet atque aut autem consectetur consequuntur dolorum enim error hic inventore molestiae nisi nostrum numquam optio perspiciatis provident.</div>
+                                    <div class="testimonial-info">
+                                        <img class="testimonial-img pull-left" src="images/man_90x90px.png">
+                                    </div>
+                                    <div class="details">
+                                        <h4>Peter Packer</h4>
+                                        <div class="regency">CEO of Touristlink</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="testimonial-content">Lorem ipsum dolor sit amet, consectetur elit. Ad assumenda fuga illo laudantium magni sed temporibus.<br>Amet atque aut autem consectetur consequuntur dolorum enim error hic inventore molestiae nisi nostrum numquam optio perspiciatis provident.</div>
+                                    <div class="testimonial-info">
+                                        <img class="testimonial-img pull-left" src="images/man_90x90px.png">
+                                    </div>
+                                    <div class="details">
+                                        <h4>Peter Packer</h4>
+                                        <div class="regency">CEO of Touristlink</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                    <div class="instagram col-md-4">
+                        <h3>Instagram Slider</h3>
+                        <div class="short-line">
+                            <img src="images/line-30x1px.png">
+                        </div>
+                        <div class="row">
+                            <div id="instagram-carousel-1" class="carousel slide col-md-4 col-sm-4 col-xs-4" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#instagram-carousel-1" data-slide-to="0" class="active"></li>
+                                    <li data-target="#instagram-carousel-1" data-slide-to="1"></li>
+                                </ol>
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                        <a href="#">
+                                            <img class="instagram-img pull-left" src="images/instagram1_110x110px.png">
+                                        </a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="#">
+                                            <img class="instagram-img pull-left" src="images/instagram2_110x110px.png">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="instagram-carousel-2" class="carousel slide col-md-4 col-sm-4 col-xs-4" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#instagram-carousel-2" data-slide-to="0" class="active"></li>
+                                    <li data-target="#instagram-carousel-2" data-slide-to="1"></li>
+                                </ol>
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                        <a href="#">
+                                            <img class="instagram-img pull-left" src="images/instagram2_110x110px.png">
+                                        </a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="#">
+                                            <img class="instagram-img pull-left" src="images/instagram3_110x110px.png">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="instagram-carousel-3" class="carousel slide col-md-4 col-sm-4 col-xs-4" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#instagram-carousel-3" data-slide-to="0" class="active"></li>
+                                    <li data-target="#instagram-carousel-3" data-slide-to="1"></li>
+                                </ol>
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                        <a href="#">
+                                            <img class="instagram-img pull-left" src="images/instagram3_110x110px.png">
+                                        </a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="#">
+                                            <img class="instagram-img pull-left" src="images/instagram4_110x110px.png">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div id="instagram-carousel-4" class="carousel slide col-md-4 col-sm-4 col-xs-4" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#instagram-carousel-4" data-slide-to="0" class="active"></li>
+                                    <li data-target="#instagram-carousel-4" data-slide-to="1"></li>
+                                </ol>
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                        <a href="#">
+                                            <img class="instagram-img pull-left" src="images/instagram4_110x110px.png">
+                                        </a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="#">
+                                            <img class="instagram-img pull-left" src="images/instagram5_110x110px.png">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="instagram-carousel-5" class="carousel slide col-md-4 col-sm-4 col-xs-4" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#instagram-carousel-5" data-slide-to="0" class="active"></li>
+                                    <li data-target="#instagram-carousel-5" data-slide-to="1"></li>
+                                </ol>
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                        <a href="#">
+                                            <img class="instagram-img pull-left" src="images/instagram5_110x110px.png">
+                                        </a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="#">
+                                            <img class="instagram-img pull-left" src="images/instagram6_110x110px.png">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="instagram-carousel-6" class="carousel slide col-md-4 col-sm-4 col-xs-4" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#instagram-carousel-6" data-slide-to="0" class="active"></li>
+                                    <li data-target="#instagram-carousel-6" data-slide-to="1"></li>
+                                </ol>
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                        <a href="#">
+                                            <img class="instagram-img pull-left" src="images/instagram6_110x110px.png">
+                                        </a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="#">
+                                            <img class="instagram-img pull-left" src="images/instagram7_110x110px.png">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div id="instagram-carousel-7" class="carousel slide col-md-4 col-sm-4 col-xs-4" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#instagram-carousel-7" data-slide-to="0" class="active"></li>
+                                    <li data-target="#instagram-carousel-7" data-slide-to="1"></li>
+                                </ol>
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                        <a href="#">
+                                            <img class="instagram-img pull-left" src="images/instagram7_110x110px.png">
+                                        </a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="#">
+                                            <img class="instagram-img pull-left" src="images/instagram8_110x110px.png">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="instagram-carousel-8" class="carousel slide col-md-4 col-sm-4 col-xs-4" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#instagram-carousel-8" data-slide-to="0" class="active"></li>
+                                    <li data-target="#instagram-carousel-8" data-slide-to="1"></li>
+                                </ol>
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                        <a href="#">
+                                            <img class="instagram-img pull-left" src="images/instagram8_110x110px.png">
+                                        </a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="#">
+                                            <img class="instagram-img pull-left" src="images/instagram9_110x110px.png">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="instagram-carousel-9" class="carousel slide col-md-4 col-sm-4 col-xs-4" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#instagram-carousel-9" data-slide-to="0" class="active"></li>
+                                    <li data-target="#instagram-carousel-9" data-slide-to="1"></li>
+                                </ol>
+                                <div class="carousel-inner" role="listbox">
+                                    <div class="item active">
+                                        <a href="#">
+                                            <img class="instagram-img pull-left" src="images/instagram9_110x110px.png">
+                                        </a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="#">
+                                            <img class="instagram-img pull-left" src="images/instagram10_110x110px.png">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="row">
+                    <div class="company col-md-4">
+                        <img class="image-footer" src="images/logo_footer.png">
+                        <div class="contact">
+                            <p>Call. <span class="phone-number">+00 123 456 789</span></p>
+                            <p>Email. <span class="email">hello@yourmail.com</span></p>
+                        </div>
+                        <div class="address">
+                            329 Queensberry Street, North Melbourne VIC 3051, Australia.
+                        </div>
+                    </div>
+                    <div class="company col-md-4">
+                        <div class="about-support">
+                            <div class="row">
+                                <div class="about col-md-6 col-sm-6 col-xs-6">
+                                    <ul class="link">
+                                        <li><a href="#">About Us</a></li>
+                                        <li><a href="#">Work Here</a></li>
+                                        <li><a href="#">Team</a></li>
+                                        <li><a href="#">Happenings</a></li>
+                                    </ul>
+                                </div>
+                                <div class="contact col-md-6 col-sm-6 col-xs-6">
+                                    <ul class="link">
+                                        <li><a href="#">Support</a></li>
+                                        <li><a href="#">FAQs</a></li>
+                                        <li><a href="#">Warranty</a></li>
+                                        <li><a href="#">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="newsletter col-md-4">
+                        <h4><strong>Get Our Newsletter</strong></h4>
+                        <form role="form">
+                            <div class="form-group email-form">
+                                <input class="form-control" name="email" type="text" placeholder="You email here">
+                            </div>
+                            <button type="button" class="btn btn-default">Sign In</button>
+                        </form>
+                        <div class="footer-social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-skype"></i></a>
+                            <a href="#"><i class="fa fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+
+                Designed by <a href="#">ThimPress</a>. Powered by WordPress.
+            </div>
+
+        </div>
+
+    </footer>
+        <!--<p class="pull-right">-->
+            <!--<a href="#">Back to top</a>-->
+        <!--</p>-->
+        <!--<p>-->
+            <!--&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot;-->
+            <!--<a href="#">Terms</a>-->
+        <!--</p>-->
+    <!--</footer>-->
+    <!-- footer-->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/moment.min.js"></script>
+    <script src="js/transition.js"></script>
+    <script src="js/collapse.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/datetimepicker.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,476 @@
+/*
+    global style
+===================================================*/
+/* Padding below the footer and lighter body text */
+body {
+    padding-bottom: 40px;
+    color: #5a5a5a;
+}
+.short-line {
+    /*width: 30px ;*/
+    /*border: solid 1px #2eb0d1;*/
+    margin: 15px 0 45px 0;
+}
+
+/*
+    customize navbar
+================================================= */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper>.container {
+    padding-right: 0;
+    padding-left: 0;
+}
+.navbar-wrapper .navbar {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+    width: auto;
+}
+
+/*
+    navbar
+===============================================*/
+.navbar-header .navbar-brand img {
+    margin: -30px 0 0 0;
+}
+.navbar-header .navbar-brand img:hover {
+    color: #222222;
+}
+div#navbar {
+    float: right;
+    margin: -10px 0 0 0;
+}
+#navbar > ul > li > a {
+    text-transform: uppercase;
+    text: strong;
+    color: #fff;
+}
+#navbar > ul > li > a:hover {
+    color: #222222;
+}
+
+.carousel-caption {
+    margin: 50px;
+}
+
+/*
+    customize carousel
+==========================================================*/
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.carousel, .item, .active {
+    height: 100%;
+}
+.carousel-inner {
+    height: 100%;
+}
+.carousel {
+    margin-bottom: 60px;
+}
+.carousel-caption {
+    z-index: 10;
+}
+.carousel .item {
+    background-color: #777;
+}
+.carousel .carousel-inner .bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel .carousel-inner .bg1 {
+    background-image: url("../images/top1_1600x730px.png");
+    background-position: center top;
+
+}
+.carousel .carousel-inner .bg2 {
+    background-image: url("../images/top2_1600x730px.png");
+    background-position: center center;
+}
+
+/*.carousel .carousel-inner .bg3 {*/
+    /*background-image: url(bg3.jpg);*/
+    /*background-position: center bottom;*/
+/*}*/
+
+nav.navbar.navbar-inverse.navbar-static-top {
+    background: none;
+    border: none;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    background: none;
+    border: none;
+}
+.glyphicon-chevron-right:before {
+    content: none;
+}
+.glyphicon-chevron-left:before {
+    content: none;
+}
+.carousel-control.left {
+    background-image: none;
+}
+.carousel-control.right {
+    background-image: none;
+}
+.carousel-indicators li {
+    display: none;
+}
+.carousel-caption p a {
+    border: solid 1px #fff;
+    color: #fff;
+    text: strong;
+}
+nav.navbar.navbar-inverse.navbar-static-top {
+    margin: 22px 0 0 0;
+}
+
+/*
+    top
+================================================= */
+
+.social-icon {
+    margin: 0 30px 5px 10px;
+    float: right;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+}
+.social-icon > a {
+    color: #fff;
+    margin: 0 7px 0 0;
+}
+.select-language.hidden-sm.hidden-xs {
+    margin: 0 0 0 10px;
+    float: right;
+}
+.select-language.hidden-sm.hidden-xs  select {
+    border: none;
+    background: none;
+    color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+}
+.select-language.hidden-sm.hidden-xs  select option{
+    background-color: #332E2E;
+}
+.stock.hidden-sm.hidden-xs {
+    float: right;
+    color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+}
+
+/*
+    dropdown menu
+================================================= */
+
+a.btn.dropdown-toggle {
+    border: solid 1px #DACFCF;
+    color: #8C8585;
+    width: 100%;
+}
+.btn-group {
+    width: 100%;
+}
+ul.dropdown-menu {
+    width: 100%;
+}
+
+/*
+    banner
+================================================= */
+img.img-banner {
+    max-width: 100%;
+}
+li {
+    text-transform: none;
+    list-style: none;
+}
+img.click-image {
+    max-width: 100%;
+}
+.circle-text {
+    position: absolute;
+    margin: -22% 0px 0px 50%;
+}
+
+/*
+    about us
+================================================= */
+.details {
+    margin: 120px 0 0 0;
+}
+.details p {
+    margin: 0 0 30px 0;
+}
+.number {
+    color: #2eb0d1;
+}
+.mail {
+    color: #2eb0d1;
+}
+.fa-check-circle:before {
+    color: #2eb0d1;
+}
+.col-md-4 .services {
+    padding-left: 25px;
+    border-left: solid 1px #dce0e2;
+}
+
+/*
+    == #testimonial
+================================================= */
+#testimonial-carousel div {
+    background: none;
+}
+
+.testimonial-content {
+    border: solid 1px #eeeeee;
+    min-height: 266px;
+}
+
+img.testimonial-img.pull-left {
+    margin: -30px 0 0 15px;
+}
+.testimonial-content {
+    padding: 22px 29px 59px 21px;
+}
+/*
+    == #instagram
+================================================= */
+#instagram-carousel-1.carousel{
+    margin: 0 0 20px 0;
+    background: none;
+}
+#instagram-carousel-2.carousel{
+    margin: 0 0 20px 0;
+    background: none;
+}
+#instagram-carousel-3.carousel{
+    margin: 0 0 20px 0;
+    background: none;
+}
+#instagram-carousel-4.carousel{
+    margin: 0 0 20px 0;
+    background: none;
+}
+#instagram-carousel-5.carousel{
+    margin: 0 0 20px 0;
+    background: none;
+}
+#instagram-carousel-6.carousel{
+    margin: 0 0 20px 0;
+    background: none;
+}
+#instagram-carousel-7.carousel{
+    margin: 0 0 20px 0;
+    background: none;
+}
+#instagram-carousel-8.carousel{
+    margin: 0 0 20px 0;
+    background: none;
+}
+#instagram-carousel-9.carousel{
+    margin: 0 0 20px 0;
+    background: none;
+}
+
+.instagram-img {
+    max-width: 110px;
+    max-height: 110px;
+}
+
+/*
+    == #event
+================================================= */
+.date.pull-left {
+    background-color: #2eb0d1;
+    width: 60px;
+    height: 60px;
+}
+.date .day {
+    color: #fff;
+    text-align: center;
+    font-weight: 900;
+    margin: 5px 0 1px 0;
+}
+.date .month {
+    color: #fff;
+    text-align: center;
+}
+.event-content p {
+    padding: 0 80px;
+}
+.under-line {
+    text-decoration: underline;
+}
+.event-content h4 {
+    margin: 16px 0 2px 80px;
+    font-family: Crimson Text Semibold;
+}
+/*.social-icon.col-md-3 {*/
+    /*float: right;*/
+/*}*/
+
+/*.select-language.col-md-3.hidden-sm.hidden-xs {*/
+    /*float: right;*/
+/*}*/
+
+/*.stock.col-md-5.hidden-sm.hidden-xs {*/
+    /*float: right;*/
+/*}*/
+
+
+/* Featurettes
+------------------------- */
+/*.featurette-divider {*/
+    /*margin: 80px 0; /!* Space out the Bootstrap <hr> more *!/*/
+/*}*/
+
+/*/!* Thin out the marketing headings *!/*/
+/*.featurette-heading {*/
+    /*font-weight: 300;*/
+    /*line-height: 1;*/
+    /*letter-spacing: -1px;*/
+/*}*/
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media ( min-width : 768px) {
+     /*Navbar positioning foo */
+    .navbar-wrapper {
+        margin-top: 20px;
+    }
+    .navbar-wrapper .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .navbar-wrapper .navbar {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    /* The navbar becomes detached from the top, so we round the corners */
+    .navbar-wrapper .navbar {
+        border-radius: 4px;
+    }
+
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 20px;
+        font-size: 21px;
+        line-height: 1.4;
+    }
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media ( min-width : 992px) {
+    .featurette-heading {
+        margin-top: 120px;
+    }
+}
+
+/*
+    footer
+========================================*/
+footer {
+    background-color: #edf1f4;
+    min-height: 434px;
+}
+
+footer .image-footer {
+    padding-top: 80px;
+    padding-bottom: 24px;
+}
+
+footer .contact {
+    padding: 0 0 15px 0;
+}
+
+footer .address {
+    padding: 0 0 65px 0;
+}
+
+footer .about-support {
+    padding: 112px 0 0 0;
+}
+footer .about-support {
+    line-height: 35px;
+}
+footer .about-support li a {
+    color: black;
+}
+@media (max-width: 991px){
+    footer .about-support {
+        padding-top: 0px;
+    }
+}
+@media (max-width: 991px){
+    footer .address {
+        padding-bottom: 20px;
+    }
+}
+span.phone-number {
+    font-weight: 600;
+}
+span.email {
+    font-weight: 600;
+}
+
+footer .newsletter {
+    padding: 112px 0 0 0;
+}
+footer .newsletter h4{
+    font-family: Crimson Text Bold;
+    padding: 0 0 30px 0;
+}
+footer .newsletter .email-form{
+    float: left;
+}
+footer .newsletter .btn-default{
+    background-color: #111111;
+}
+footer .newsletter button {
+    color: #fff;
+}
+footer .newsletter button:hover {
+    color: #edf1f4;
+}
+footer .newsletter .footer-social{
+    padding: 25px 0 0 0;
+}
+footer .newsletter .footer-social .fa{
+    color: #7a7a7a;
+    padding: 0 19px 0 0;
+    font-size: 1.2em;
+}
+@media (max-width: 991px){
+    .newsletter.col-md-4 {
+        padding-top: 2px;
+        padding-bottom: 98px;
+    }
+}
+.copyright {
+    border-top: solid 1px #dce0e2;
+    padding: 40px 0 40px 0;
+    width: 100%;
+    bottom: 0;
+}
