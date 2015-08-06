@@ -2,7 +2,7 @@
  * Created by Benjamin on 03-Aug-15.
  */
 $(document).ready(function() {
-    $('.carousel').carousel({interval: 1350});
+    $('.carousel').carousel({interval: 7350});
 
     $('#datetimepicker6').datetimepicker({
         viewMode: 'years',
